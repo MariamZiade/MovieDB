@@ -1,0 +1,29 @@
+{
+  "name": "moviedb",
+  "version": "1.0.0",
+  "description": "Codi Movies Data Base",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "nodemon index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariamZiade/MovieDB.git"
+  },
+  "keywords": [
+    "movie",
+    "codi"
+  ],
+  "author": "Mariam Ziade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariamZiade/MovieDB/issues"
+  },
+  "homepage": "https://github.com/MariamZiade/MovieDB#readme"
+}
