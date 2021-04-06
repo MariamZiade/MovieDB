@@ -14,7 +14,15 @@ res.end()
 app.get('/', (req, res) => res.send('ok')) 
 app.get('/test', (req, res) => res.send({status:200, message:"ok"}))
 app.get('/time', (req, res) => res.send({status:200, message: time}))
-app.get('/hello/<ID>', (req, res) => res.send({status:200, message:"Hello, <ID>"}))
+app.get('/hello/<ID>', (req, res) => {
+
+if (ID == undefined)
+{
+    res.send({status:200, message:"Hello, <ID>"})
+}
+else {
+    res.send({status:200, message:"Hello"})
+}})
 
 
 
